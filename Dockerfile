@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 LABEL author="Shashank Singh"
 LABEL version="0.0.1"
 
-
+# WIP
 # https://superuser.com/questions/1059346/apt-get-update-not-working-signing-verification-errors
 RUN rm -rf /tmp/* 
 RUN apt-get update -q
